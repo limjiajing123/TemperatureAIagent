@@ -33,11 +33,17 @@ The agent follows a **Reasoning + Acting (ReAct)** pattern:
    cd hardware-monitor-agent
 
 ### Setup Virtual Environment (Sandbox)
+```bash
 python3 -m venv venv
-source venv/bin/activate
+source venv/bin/activate 
+```
 
 ### Install Dependencies
+```bash
 pip install -r requirements.txt
+```
 
 ### Run the Agent
+```bash
 python3 agent.py
+```
